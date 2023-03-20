@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    color: seashell;
+    /* box-sizing: border-box; */
+    /* font-size: 22px; */
+    opacity: 0.9;
+    text-align: center;
+}
+
+/* navbar items */
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 9px 10px;
+    border-bottom: 1px solid seashell;
+    position: sticky;
+    top: 0;
+    opacity: 1;
+    z-index: 1;
+    width: 100%;
+}
+
+.logo_img{
+    height: 50px;
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0 20px; 
+} 
+
+
+/* mission section */
+
+#mission{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 700px;
+    width: 1200px;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*16wa0rx*_ga*Mjc5MjMxMDA4NS4xNjc2Mjg5Mzg4*_ga_3LRZM6TM9L*MTY3ODExMDE1Ny40Mi4xLjE2NzgxMTAzMTQuNTguMC4w");
+}
+
+.mission_text{
+    width: 100%;
+}
+
+
+/* tea of the month */
+
+#tea_of_month{
+    width: 1000px;
+    margin: 0 auto;
+    /* display: flex;
+    flex-wrap: wrap; */
+
+}
+
+
+.tea_of_month_items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.featured_tea{
+    padding: 10px 10px;
+}
+
+.tea_img{
+    max-height: 200px;
+    max-width: 300px;
+}
+
+.tea_txt{
+    padding-top: 10px;
+}
+
+
+/* locations section */
+#locations{
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    height: 500px;
+    width: 1200px;
+    margin: 0 auto;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*ptszx9*_ga*Mjc5MjMxMDA4NS4xNjc2Mjg5Mzg4*_ga_3LRZM6TM9L*MTY3ODE1MTM3Ny40NC4xLjE2NzgxNTEzODAuNTcuMC4w");
+}
+
+.location_square{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 300px;
+    width: 300px;
+    opacity: 1;
+    margin: auto;
+
+}
+
+
+/* contact */
+#contact{
+    display: flex;
+    max-height: 200px;
+    margin: 0 auto;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+/* footer */
+
+.left{
+    text-align: left;
+}
